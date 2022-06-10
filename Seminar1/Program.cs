@@ -65,7 +65,7 @@ if (c > a)
 
 */
 
-
+/*
 int a;
 Console.WriteLine("Input the number");
 a=Convert.ToInt32(Console.ReadLine());
@@ -77,4 +77,24 @@ if (a % 2 == 0)
 else 
 {
     Console.WriteLine("False");
+}
+
+*/
+
+int N;
+
+Console.WriteLine("Input the number");
+N=Convert.ToInt32(Console.ReadLine());
+
+int i = 2;
+
+while (i <= N) 
+{
+    Console.WriteLine(i);
+    i = i + 2;
+}
+
+if (N % 2 == 0)
+{
+    Console.WriteLine();
 }
