@@ -22,6 +22,7 @@ if (b > a)
 
 */
 
+/*
 int a, b, c;
 
 Console.WriteLine("Input the first number");
@@ -60,4 +61,20 @@ if (c > a)
      Console.WriteLine($"Max number {c} ");
     }
     
+}
+
+*/
+
+
+int a;
+Console.WriteLine("Input the number");
+a=Convert.ToInt32(Console.ReadLine());
+
+if (a % 2 == 0)
+{
+    Console.WriteLine("True");
+}
+else 
+{
+    Console.WriteLine("False");
 }
