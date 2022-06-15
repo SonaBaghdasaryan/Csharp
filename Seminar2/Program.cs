@@ -1,4 +1,4 @@
-﻿
+﻿/*
 int CutNumber(int num) 
 
 {
@@ -17,11 +17,13 @@ int result = CutNumber (a);
 
 Console.WriteLine($"The second number is {result}");
 
+*/
 
 
 
 
 /*
+
 int ThirdNumber(int num)
 
 {
@@ -51,51 +53,16 @@ int ThirdNumber(int num)
 
 Console.WriteLine("Input the number: ");
 
-int result = Convert.ToInt32(Console.ReadLine());
+int res = Convert.ToInt32(Console.ReadLine());
 
 Console.WriteLine(ThirdNumber(result));
 
-
-
-*/
-
-/*
-int FindWeekNumber(int num)
-
-{
-    if(num == 6 && num == 7)
-    {
-     Console.WriteLine($"Выходной");
-    return -1;
-    }
-
-else 
-
-if(num<6 && num>1)
-
-{
-    Console.WriteLine($"Рабочий день");
-    int result = num;
-    return result;
-
-}
-}
-Console.WriteLine("Input the number: ");
-int a = Convert.ToInt32(Console.ReadLine());
-int result = FindWeekNumber(a);
-
-if (result == -1)
-{
-    Console.WriteLine("Выходной");
-}
-Console.WriteLine($"День недели {result}");
-
 */
 
 
 
-
 /*
+
 int FindWeekDay(int day)
 
 {
@@ -121,7 +88,6 @@ int result = FindWeekDay(a);
 if (result == -1)
 
 Console.WriteLine($"{ a }");
- */
 
 
-
+*/
