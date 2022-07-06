@@ -1,5 +1,5 @@
 ﻿//Задайте значения M и N. Напишите программу, которая найдёт сумму натуральных элементов в промежутке от M до N
-
+/*
 int SumOfElements(int M, int N)
     {
         if(M == N) return N;
@@ -12,18 +12,19 @@ int b = Convert.ToInt32(Console.ReadLine());
 
 Console.WriteLine(SumOfElements(a,b));
 
-
+*/
 
 //Напишите программу, которая будет принимать на вход число и возвращать кол-во его цифр.
 /*
 int SumOfDigits(int number)
     {
-        if(number==0) return 0;
-        return number % 10 + SumOfDigits(number/10);
+        if(number/10==0) return 1;
+        return 1 + SumOfDigits(number/10);
     }
 Console.Write("Input the number ");
 int a = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine(SumOfDigits(a));
 
 */
+
 
